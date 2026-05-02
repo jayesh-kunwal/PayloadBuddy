@@ -1,14 +1,14 @@
 # PayloadBuddy
 
-PayloadBuddy is a Firefox WebExtension created by Jayesh Kunwal for penetration testing and bug bounty workflows. It provides a fast local library of categorized payloads with search, filters, favorites, custom payload import/export, dark mode, and one-click copy.
+PayloadBuddy is a WebExtension for Firefox / Google chrome created by Jayesh Kunwal for penetration testing and bug bounty workflows. It provides a fast local library of categorized payloads with search, filters, favorites, custom payload import/export, dark mode, and one-click copy.
 
 ## Security Disclaimer
 
-Use this extension only on systems where you have explicit written authorization to test. PayloadBuddy is intended for educational, defensive, and authorized security assessment use. It does not perform exploitation automatically, does not send network requests, and does not include destructive payloads, credential theft, persistence, malware, or real data exfiltration payloads.
+PayloadBuddy is intended for educational, defensive, and authorized security assessment use. It does not perform exploitation automatically, does not send network requests, and does not include destructive payloads, credential theft, persistence, malware, or real data exfiltration payloads.
 
 ## Features
 
-- Firefox Manifest V3 WebExtension
+- Firefox / Google chrome Manifest V3 WebExtension
 - 90 built-in safe test payloads
 - Categories for XSS, DOM XSS, HTML Injection, Content Spoofing, iframe Injection, SSTI, SQL Injection, Command Injection, XXE, Open Redirect, and WAF bypass testing
 - Search by name, tag, payload, context, or description
