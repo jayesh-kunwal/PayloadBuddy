@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PayloadBuddy</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="header">
+      <div class="brand">
+       <img src="icons/logo-wordmark.png" alt="PayloadBuddy" class="brand-logo">
+      </div>
+    </header>
+
+    <section class="toolbar">
+      <input id="searchInput" type="search" placeholder="Search payloads, tags, context..." autocomplete="off" />
+      <select id="categoryFilter" aria-label="Filter by category">
+        <option value="all">All Categories</option>
+      </select>
+      <select id="contextFilter" aria-label="Filter by context">
+        <option value="all">All Contexts</option>
+      </select>
+    </section>
+
+    <section class="stats-row">
+      <span id="resultCount">0 payloads</span>
+    </section>
+
+    <section class="custom-panel">
+      <details>
+        <summary>Add Payload</summary>
+        <label>Name <input id="customName" type="text" placeholder="Reflected HTML test" /></label>
+        <label>Category <input id="customCategory" type="text" placeholder="XSS" /></label>
+        <label>Context <input id="customContext" type="text" placeholder="HTML" /></label>
+        <label>Description <input id="customDescription" type="text" placeholder="Purpose of this payload" /></label>
+        <label>Payload <textarea id="customPayload" rows="3" placeholder="Enter payload"></textarea></label>
+        <button id="addCustom" class="primary-btn">Add Payload</button>
+      </details>
+    </section>
+
+    <section class="import-export">
+      <button id="exportPayloads" class="secondary-btn">Export Payloads</button>
+      <button id="showFavorites" class="secondary-btn">★ Favorites</button>
+    </section>
+
+    <section id="payloadList" class="payload-list" aria-live="polite"></section>
+  </main>
+
+  <template id="payloadCardTemplate">
+    <article class="payload-card">
+      <div class="card-head">
+        <div>
+          <h2 class="payload-name"></h2>
+          <div class="meta-line"></div>
+        </div>
+        <button class="favorite-btn" title="Favorite">☆</button>
+      </div>
+      <p class="description"></p>
+      <pre class="payload-box"><code></code></pre>
+      <div class="variant-panel hidden"></div>
+      <div class="button-row">
+        <button class="copy-raw primary-btn">Copy Raw</button>
+        <button class="generate secondary-btn">Generate Variant</button>
+        <button class="copy-encoded secondary-btn" disabled>Copy Encoded</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="payloads.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
