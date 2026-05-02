@@ -77,17 +77,6 @@ PayloadBuddy/
 ]
 ```
 
-## Future Improvement Ideas
-
-- Add payload notes per target/program
-- Add payload quality scoring
-- Add payload context decision tree
-- Add custom categories manager
-- Add safer payload preview mode
-- Add per-program payload collections
-- Add keyboard shortcuts
-- Add copy history stored locally
-
 ## Author
 
 Developed by Jayesh Kunwal.
