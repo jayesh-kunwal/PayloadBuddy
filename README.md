@@ -1,6 +1,7 @@
 # PayloadBuddy
 
-<img width="800" height="128" alt="logo-wordmark" src="https://github.com/user-attachments/assets/b671fe7b-0322-4400-a56d-0108801c9141" />
+<img width="850" height="128" alt="logo-wordmark" src="https://github.com/user-attachments/assets/b671fe7b-0322-4400-a56d-0108801c9141" />
+
 
 PayloadBuddy is a WebExtension for Firefox / Google chrome created by Jayesh Kunwal for penetration testing and bug bounty workflows. It provides a fast local library of categorized payloads with search, filters, favorites, custom payload import/export, dark mode, and one-click copy.
 
