@@ -48,7 +48,7 @@ PayloadBuddy/
 2. Navigate to `about:debugging#/runtime/this-firefox`.
 3. Click **Load Temporary Add-on**.
 4. Select `manifest.json` from the `PayloadBuddy` folder.
-5. Click the Extensions (🧩) icon in toolbar > Find PayloadBuddy > Click Pin.
+5. Click the Extensions icon in toolbar > Find PayloadBuddy > Click Pin.
 
 ## Installation in Google Chrome
 
@@ -57,7 +57,7 @@ PayloadBuddy/
 3. Turn Developer mode ON (top-right corner).
 4. Click Load unpacked.
 5. Select the PayloadBuddy folder.
-6. Click the Extensions (🧩) icon in the Chrome toolbar > Find PayloadBuddy > Click Pin.
+6. Click the Extensions icon in the Chrome toolbar > Find PayloadBuddy > Click Pin.
 
 ## Usage
 
@@ -85,6 +85,9 @@ PayloadBuddy/
   }
 ]
 ```
+## PayloadBuddy Feature Walkthrough
+<img width="312" height="374" alt="PayloadBuddy" src="https://github.com/user-attachments/assets/df3494ee-7dac-451f-9797-1dbe3b4d5e2e" />
+
 
 ## Author
 
