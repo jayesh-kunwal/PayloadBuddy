@@ -67,24 +67,8 @@ PayloadBuddy/
 4. Click **Copy Encoded** to copy the URL-encoded variant.
 5. Use the star button to save favorites.
 6. Add your own payloads from the custom payload panel.
-7. Export/import custom payloads as JSON.
+7. Export payloads as JSON.
 
-## Custom Payload JSON Format
-
-```json
-[
-  {
-    "id": "custom-example-001",
-    "category": "XSS",
-    "name": "Example HTML Context Test",
-    "payload": "<svg onload=alert(document.domain)>",
-    "context": "HTML",
-    "description": "Tests script execution in an HTML rendering context.",
-    "risk": "High",
-    "tags": ["xss", "html", "authorized-testing"]
-  }
-]
-```
 ## PayloadBuddy Feature Walkthrough
 <img width="312" height="374" alt="PayloadBuddy" src="https://github.com/user-attachments/assets/df3494ee-7dac-451f-9797-1dbe3b4d5e2e" />
 
